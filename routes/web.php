@@ -21,6 +21,5 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
+Route::get('/index', [App\Http\Controllers\PrcticeController::class, 'index'])->name('index');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
