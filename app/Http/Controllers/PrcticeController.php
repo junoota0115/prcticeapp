@@ -16,8 +16,9 @@ class PrcticeController extends Controller
         return view('create');
     }
 
-    // public function index(){
-    // }
+    public function upload(Request $request){
+        $inputs = $request->all();
+    }
     // public function index(){ 
     // }
     // public function index(){     

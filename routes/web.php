@@ -23,4 +23,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/index', [App\Http\Controllers\PrcticeController::class, 'index'])->name('index');
 Route::get('/create', [App\Http\Controllers\PrcticeController::class, 'create'])->name('create');
+Route::post('/create', [App\Http\Controllers\PrcticeController::class, 'upload'])->name('upload');
 
