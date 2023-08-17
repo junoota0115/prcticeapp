@@ -22,4 +22,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/index', [App\Http\Controllers\PrcticeController::class, 'index'])->name('index');
+Route::get('/create', [App\Http\Controllers\PrcticeController::class, 'create'])->name('create');
 
